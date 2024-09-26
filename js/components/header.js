@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <h1>个人网站</h1>
         <nav>
             <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="pages/about.html">关于我</a></li>
-                <li><a href="pages/projects.html">项目</a></li>
+                <li><a href="/index.html">首页</a></li>
+                <li><a href="/pages/about.html">关于我</a></li>
+                <li><a href="/pages/projects.html">项目</a></li>
             </ul>
         </nav>
     `;
