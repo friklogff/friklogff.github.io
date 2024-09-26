@@ -5,3 +5,7 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+footer p {
+    margin: 5px 0;
+}
