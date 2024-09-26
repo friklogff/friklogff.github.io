@@ -1,19 +1,6 @@
-/* 主要样式表 */
+/* 主要样式 */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-}
-
-header, footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-}
-
-main {
-    padding: 2em;
-    text-align: center;
 }

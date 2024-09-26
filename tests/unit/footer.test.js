@@ -1,9 +1,9 @@
-import React from 'react';
-import { render } from '@testing-library/react';
+// Jest 单元测试示例
 import Footer from '../../src/components/Footer';
+import { render } from '@testing-library/react';
 
-test('renders footer with correct content', () => {
-  const { getByText } = render(<Footer />);
-  const footerElement = getByText(/2023 我的个人网站/i);
-  expect(footerElement).toBeInTheDocument();
+test('renders footer', () => {
+    const { getByText } = render(<Footer />);
+    const linkElement = getByText(/2023 个人网站/i);
+    expect(linkElement).toBeInTheDocument();
 });

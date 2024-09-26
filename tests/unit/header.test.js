@@ -1,9 +1,9 @@
-import React from 'react';
-import { render } from '@testing-library/react';
+// Jest 单元测试示例
 import Header from '../../src/components/Header';
+import { render } from '@testing-library/react';
 
-test('renders header with correct content', () => {
-  const { getByText } = render(<Header />);
-  const headerElement = getByText(/我的个人网站/i);
-  expect(headerElement).toBeInTheDocument();
+test('renders header', () => {
+    const { getByText } = render(<Header />);
+    const linkElement = getByText(/个人网站/i);
+    expect(linkElement).toBeInTheDocument();
 });

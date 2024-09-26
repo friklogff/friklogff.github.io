@@ -1,10 +1,6 @@
-/* 响应式设计样式表 */
-@media (max-width: 600px) {
-    header, footer {
-        padding: 1em;
-    }
-
-    main {
-        padding: 1em;
+/* 响应式样式 */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
     }
 }
