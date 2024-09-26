@@ -1,0 +1,20 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "个人网站",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "jest": "^27.0.6",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

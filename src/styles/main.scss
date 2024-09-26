@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+}
+
+header, footer {
+  background-color: $header-footer-bg;
+  color: $header-footer-color;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
