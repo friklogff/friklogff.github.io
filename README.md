@@ -5,23 +5,23 @@
 ## 目录结构
 
 ```
-io/
-│
-├── dist/
-│   ├── index.html
-│   └── style.css
-│
-├── src/
-│   ├── style.scss
-│   ├── index.html
-│   └── script.js
-│
-├── index.html
-├── styles.css
-└── README.md
+dist/                 # 构建或部署后的文件目录
+├── index.html        # 构建后的主页文件
+├── script.js         # 构建后的JavaScript文件
+└── style.css         # 构建后的CSS样式表
+
+.gitignore           # 排除Git跟踪的文件列表
+404.html             # 错误页面，用于显示404错误
+blog.md              # 可能用于博客文章的Markdown文件
+CNAME                # 用于配置网站的自定义域名
+index.html           # 网站的主页文件
+LICENSE              # 项目的许可证文件
+README.md            # 项目的说明文件
+styles.css           # 定义网站样式的CSS文件
+_config.yml          # 配置文件，用于静态站点生成器
 ```
 
-## 安装指南
+## 搭建指南
 
 1. 从0开始搭建
 - [访问我的博客](https://friklogff.blog.csdn.net/article/details/142590747)
