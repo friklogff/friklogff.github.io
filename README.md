@@ -23,11 +23,14 @@ io/
 
 ## 安装指南
 
-1. 克隆仓库到本地：
+1. 从0开始搭建
+[访问我的博客](./blog.md)
+[访问blog.md](./blog.md)
+2. 克隆仓库到本地：
    ```
    git clone https://github.com/yourusername/your-project.git
    ```
-2. 打开`index.html`文件在浏览器中查看效果。
+3. 打开`index.html`文件在浏览器中查看效果。
 
 ## 使用说明
 
