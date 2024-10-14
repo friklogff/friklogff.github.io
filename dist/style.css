@@ -375,3 +375,39 @@ body {
   left: auto;
   right: 5px;
 }
+
+/* github */
+.github-star-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff; /* 更显眼的蓝色 */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.github-star-btn:hover {
+  background-color: #0056b3;
+}
+
+/* 添加说明文本的样式 */
+.support-text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.support-text strong {
+  color: #007bff;
+}

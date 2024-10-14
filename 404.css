@@ -1,30 +1,5 @@
-body{background:#ECF0F1}
-
-.load{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);
-  /*change these sizes to fit into your project*/
-  width:100px;
-  height:100px;
-}
-.load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
-
-.load :first-child{background:#19A68C;animation-delay:-1.5s}
-.load :nth-child(2){background:#F63D3A;animation-delay:-1s}
-.load :nth-child(3){background:#FDA543;animation-delay:-0.5s}
-.load :last-child{background:#193B48}
-
-@keyframes spin{
-  0%,100%{transform:translate(0)}
-  25%{transform:translate(160%)}
-  50%{transform:translate(160%, 160%)}
-  75%{transform:translate(0, 160%)}
-}
-
-
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
+	
 :root {
     --c0: #71a1ff;
     --c1: #4d85f6;
@@ -34,7 +9,7 @@ body{background:#ECF0F1}
     --c5: #244483;
     --c6: #103071;
     --clr: 1; /* change color from 1 to 12 */
-	--hue: calc(30deg - (30deg * var(--clr)));
+	--hue: calc(30deg - (30deg * var(--clr))); 
 }
 
 body {
@@ -82,7 +57,7 @@ body * {
 	transform: translate3d(-50%, -50%, calc(var(--size) * -0.5vmin)) rotateY(180deg);
 	background: radial-gradient(circle at 100% 0%, var(--c4), #fff0 45vmin),radial-gradient(circle at 100% 0%, var(--c1), var(--c4));
 }
-
+ 
 .cuboid .side:nth-of-type(2) {
 	width: calc(var(--size) * 1vmin);
 	transform: translate(-50%, -50%) rotateY(-90deg) translate3d(0, 0, calc(var(--size) * 0.5vmin));
@@ -155,9 +130,9 @@ body * {
 .hole {
     width: 28vmin;
     height: 20vmin;
-    background:
-        radial-gradient(circle at 50% 0%, var(--c2), #fff0 45%),
-        radial-gradient(circle at 30% 100%, #061b43, #fff0 77%),
+    background: 
+        radial-gradient(circle at 50% 0%, var(--c2), #fff0 45%), 
+        radial-gradient(circle at 30% 100%, #061b43, #fff0 77%), 
         radial-gradient(circle at 20% 100%, var(--c3), var(--c2), var(--c2));
     border-radius: 100%;
     box-shadow: 0 -2px 4px -2px #fffc, 0 2px 3px -3px #fffc inset, 0 2px 6px -4px #000;
@@ -170,11 +145,11 @@ body * {
 .ladder,
 .ladder-shadow {
     --shadow: #0008;
-    background:
-        linear-gradient(180deg, #fff0 33%, var(--shadow), #000),
-        linear-gradient(90deg, #cec3b9 0 1.2vmin, #b3aba2 0 1.5vmin, #fff0 0 100%),
-        linear-gradient(90deg, #cec3b9 0 1.2vmin, #b3aba2 0 1.75vmin, #fff0 0 calc(100% - 1.75vmin)),
-        repeating-linear-gradient(0deg, #cec3b9 0 1.2vmin, #e7dbcf 0 1.75vmin, #fff0 0 6.75vmin),
+    background: 
+        linear-gradient(180deg, #fff0 33%, var(--shadow), #000), 
+        linear-gradient(90deg, #cec3b9 0 1.2vmin, #b3aba2 0 1.5vmin, #fff0 0 100%), 
+        linear-gradient(90deg, #cec3b9 0 1.2vmin, #b3aba2 0 1.75vmin, #fff0 0 calc(100% - 1.75vmin)), 
+        repeating-linear-gradient(0deg, #cec3b9 0 1.2vmin, #e7dbcf 0 1.75vmin, #fff0 0 6.75vmin), 
         linear-gradient(90deg, #cec3b9 0 1.2vmin, #b3aba2 0 1.75vmin, #fff0 0 calc(100% - 1.75vmin));
     width: 10vmin;
     height: 30vmin;
@@ -193,7 +168,7 @@ body * {
     --shadow: #0000;
 }
 
-.ladder:before,
+.ladder:before, 
 .ladder:after {
     content: "";
     position: absolute;
