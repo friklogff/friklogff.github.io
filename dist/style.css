@@ -376,7 +376,6 @@ body {
   right: 5px;
 }
 
-/* github */
 .github-star-btn {
   display: inline-block;
   padding: 10px 20px;
@@ -396,7 +395,6 @@ body {
   background-color: #0056b3;
 }
 
-/* 添加说明文本的样式 */
 .support-text {
   text-align: center;
   margin-top: 30px;
