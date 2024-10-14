@@ -25,10 +25,10 @@ _config.yml          # 配置文件，用于静态站点生成器
 
 1. 从0开始搭建
 - [访问我的博客](https://friklogff.blog.csdn.net/article/details/142590747)
-- [LICENSE](..%2F..%2FDownloads%2Ftest-main%2FLICENSE)[访问blog.md](./blog.md)
+- [访问blog.md](./blog.md)
 2. 克隆仓库到本地：
    ```
-   git clone https://github.com/yourusername/your-project.git
+   git clone https://github.com/friklogff/friklogff.github.io.git
    ```
 3. 打开`index.html`文件在浏览器中查看效果。
 
