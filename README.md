@@ -24,8 +24,8 @@ io/
 ## 安装指南
 
 1. 从0开始搭建
-[访问我的博客](./blog.md)
-[访问blog.md](./blog.md)
+- [访问我的博客](https://friklogff.blog.csdn.net/article/details/142590747)
+- [访问blog.md](./blog.md)
 2. 克隆仓库到本地：
    ```
    git clone https://github.com/yourusername/your-project.git
