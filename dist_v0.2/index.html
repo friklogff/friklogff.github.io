@@ -1,0 +1,139 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friklogff's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/icons/fontawesome/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#about">个人简介</a></li>
+            <li><a href="#education">教育背景</a></li>
+            <li><a href="#projects">项目经历</a></li>
+            <li><a href="#skills">技术栈</a></li>
+            <li><a href="#honors">荣誉奖项</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主页横幅 -->
+    <section class="hero">
+        <img src="assets/images/avatar.jpg" alt="Friklogff" class="avatar">
+        <h1>Friklogff's Portfolio</h1>
+        <p>Full Stack Developer | AI Enthusiast</p>
+        <a href="#about" class="btn">了解更多</a>
+    </section>
+
+    <!-- 个人简介 -->
+    <section id="about" class="section about">
+        <h2 class="section-title">个人简介</h2>
+        <img src="assets/images/avatar.jpg" alt="Friklogff" class="about-avatar">
+        <p>热爱技术、学习能力强，实验室项目实践期间自己学习了开发和算法的知识，增加了组内效率。有良好的代码习惯，注意代码规范与注释编写。用 CSDN 和 Stack Overflow 结合 AI 工具解决问题，学习新技术会先看官方文档。</p>
+    </section>
+
+
+
+    <!-- 项目经历 -->
+    <section id="projects" class="section">
+        <h2 class="section-title">项目经历</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/images/er.png" alt="项目1">
+                <h3>基于人脸识别的智能管控平台</h3>
+                <div class="tech-tag">Python</div>
+                <div class="tech-tag">Tkinter</div>
+                <div class="tech-tag">SQLite3</div>
+                <p>结合人脸识别、嵌入式和物联网技术，实现手机存储柜充电、存放状态及远程管控。</p>
+                <a href="https://github.com/friklogff/Face-recognition-web-ui" target="_blank">查看项目 →</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/er.png" alt="项目2">
+                <h3>AI命理分析系统</h3>
+                <div class="tech-tag">Python</div>
+                <div class="tech-tag">Gradio</div>
+                <div class="tech-tag">讯飞星火大模型</div>
+                <p>结合八字学理论与人工智能技术，为用户提供个性化命理分析。</p>
+                <a href="https://github.com/friklogff/xx-xhai" target="_blank">查看项目 →</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/er.png" alt="项目3">
+                <h3>电费管理系统</h3>
+                <div class="tech-tag">Python</div>
+                <div class="tech-tag">Flask</div>
+                <div class="tech-tag">SQL Server</div>
+                <p>面向电力公司客户管理人员，提供电费账单查询、收费及客户管理功能。</p>
+                <a href="https://github.com/friklogff/Electricity-fee-management-system" target="_blank">查看项目 →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术栈 -->
+    <section id="skills" class="section">
+        <h2 class="section-title">技术栈</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-level python"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level javascript"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Java</h3>
+                <div class="skill-bar">
+                    <div class="skill-level java"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>HTML/CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level htmlcss"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>MySQL</h3>
+                <div class="skill-bar">
+                    <div class="skill-level mysql"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Flask</h3>
+                <div class="skill-bar">
+                    <div class="skill-level flask"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Vue.js</h3>
+                <div class="skill-bar">
+                    <div class="skill-level vuejs"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 联系信息 -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">联系我</h2>
+        <p>欢迎通过以下方式与我联系：</p>
+        <ul>
+            <li><i class="fas fa-envelope"></i> Email: <a href="mailto:friklogff@163.com">friklogff@163.com</a></li>
+            <li><i class="fab fa-github"></i> GitHub: <a href="https://github.com/friklogff" target="_blank">https://github.com/friklogff</a></li>
+            <li><i class="fas fa-blog"></i> 博客: <a href="https://friklogff.blog.csdn.net" target="_blank">https://friklogff.blog.csdn.net</a></li>
+        </ul>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
