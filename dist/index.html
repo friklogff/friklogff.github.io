@@ -1,154 +1,167 @@
+<!--index.html-->
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>Pages - Friklogff</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'><link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friklogff's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/icons/fontawesome/css/all.min.css">
 </head>
 <body>
-<!-- GitHub星标按钮和说明 -->
-<div style="text-align: center;">
-  <div class="support-text">
-    <strong>🌟 网站持续更新中！</strong><br>
-    如果你喜欢这个项目，请给它一个星标，你的支持是我们最大的动力。
-  </div>
-  <a href="https://github.com/friklogff/friklogff.github.io" target="_blank" class="github-star-btn">Star on GitHub</a>
-</div>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#about">个人简介</a></li>
+            <li><a href="#education">教育背景</a></li>
+            <li><a href="#projects">项目经历</a></li>
+            <li><a href="#skills">技术栈</a></li>
+            <li><a href="#honors">荣誉奖项</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
 
-<!-- partial:index.partial.html -->
-<div class="cont s--inactive">
-  <!-- cont inner start -->
-  <div class="cont__inner">
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 1</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">1</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="1">1</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 2</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">2</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="2">2</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 3</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">3</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="3">3</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 4</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">4</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="4">4</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 5</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">5</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="5">5</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-  </div>
-  <!-- cont inner end -->
-</div>
+    <!-- 主页横幅 -->
+    <section class="hero">
+        <img src="assets/images/avatar.jpg" alt="Friklogff" class="avatar">
+        <h1>Friklogff's Portfolio</h1>
+        <p>Full Stack Developer | AI Enthusiast</p>
+        <a href="#about" class="btn">了解更多</a>
+    </section>
 
-<!-- 超链接图标，链接至 csdn 网站 -->
-<a href="https://friklogff.blog.csdn.net/?type=blog" target="_blank" class="icon-link">
-  <img src="https://kimi-img.moonshot.cn/webimg2/icon-cache-img/blog.csdn.net" alt="CSDN">
-</a>
-<!-- 超链接图标，链接至 github 官方页面 -->
-<a href="https://github.com/friklogff" target="_blank" class="icon-link icon-link--twitter">
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
-</a>
-<!-- script.js 文件的引入 -->
-<script src="./script.js"></script>
+    <!-- 个人简介 -->
+    <section id="about" class="section about">
+        <h2 class="section-title">个人简介</h2>
+        <img src="assets/images/avatar.jpg" alt="Friklogff" class="about-avatar">
+        <p>热爱技术、学习能力强，实验室项目实践期间自己学习了开发和算法的知识，增加了组内效率。有良好的代码习惯，注意代码规范与注释编写。
+            善于利用Stack Overflow 结合 AI 工具解决问题，学习新技术时优先参考官方文档，确保知识的准确性和全面性。</p>
 
-<!-- 加载动画部分，HR 标签用于制作加载动画效果 -->
-<div class="load">
-  <hr/><hr/><hr/><hr/>
-</div>
+        <!-- CSDN链接和截图 -->
+        <div class="csdn-section">
+            <p>在 CSDN 上拥有近 4 万粉丝，积极分享技术知识和经验，帮助他人解决问题，提升自身影响力和专业形象。我的技术博客：<a href="https://friklogff.blog.csdn.net/" target="_blank">CSDN博客</a></p>
+            <a href="https://friklogff.blog.csdn.net/" target="_blank">
+                <img src="assets/images/csdn-screenshot.png" alt="CSDN博客截图" class="csdn-screenshot">
+            </a>
+        </div>
+    </section>
 
+    <!-- 教育背景 -->
+    <section id="education" class="section">
+        <h2 class="section-title">教育背景</h2>
+        <div class="project-card">
+            <h3>安徽工程大学 - 计算机科学与技术</h3>
+            <p>GPA: 3.25/4.0</p>
+            <p>核心课程：高等数学 (91)、线性代数 (80)、概率论 (94)、数据结构 (87)、编译原理 (95)、Java 程序设计 (90) 等</p>
+        </div>
+    </section>
+
+    <!-- 项目经历 -->
+    <section id="projects" class="section">
+        <h2 class="section-title">项目经历</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/images/rl.jpg" alt="项目1">
+                <h3>基于人脸识别的智能管控平台</h3>
+                <div class="tech-tag">Python</div>
+                <div class="tech-tag">Tkinter</div>
+                <div class="tech-tag">SQLite3</div>
+                <p>结合人脸识别、嵌入式和物联网技术，实现手机存储柜充电、存放状态及远程管控。</p>
+                <a href="https://github.com/friklogff/Face-recognition-web-ui" target="_blank">查看项目 →</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/xh.jpg" alt="项目2">
+                <h3>AI命理分析系统</h3>
+                <div class="tech-tag">Python</div>
+                <div class="tech-tag">Gradio</div>
+                <div class="tech-tag">讯飞星火大模型</div>
+                <p>结合八字学理论与人工智能技术，为用户提供个性化命理分析。</p>
+                <a href="https://github.com/friklogff/xx-xhai" target="_blank">查看项目 →</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/er.png" alt="项目3">
+                <h3>电费管理系统</h3>
+                <div class="tech-tag">Python</div>
+                <div class="tech-tag">Flask</div>
+                <div class="tech-tag">SQL Server</div>
+                <p>面向电力公司客户管理人员，提供电费账单查询、收费及客户管理功能。</p>
+                <a href="https://github.com/friklogff/Electricity-fee-management-system" target="_blank">查看项目 →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术栈 -->
+    <section id="skills" class="section">
+        <h2 class="section-title">技术栈</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-level python"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level javascript"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Java</h3>
+                <div class="skill-bar">
+                    <div class="skill-level java"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>HTML/CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level htmlcss"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>MySQL</h3>
+                <div class="skill-bar">
+                    <div class="skill-level mysql"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Flask</h3>
+                <div class="skill-bar">
+                    <div class="skill-level flask"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Vue.js</h3>
+                <div class="skill-bar">
+                    <div class="skill-level vuejs"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 荣誉奖项 -->
+    <section id="honors" class="section">
+        <h2 class="section-title">荣誉奖项</h2>
+        <ul>
+            <li>校奖学金二等奖 (2021-2022)</li>
+            <li>校奖学金三等奖 (2022-2023)</li>
+            <li>第五届全国高校计算机能力挑战赛程序设计挑战赛 (Python 科目) 本研组全国决赛三等奖 (2023.12)</li>
+            <li>CSDN 2023「博客之星」年度总评选 TOP 46 (2024.1)</li>
+            <li>第十五届蓝桥杯大赛安徽赛区 Python 程序设计三等奖 (2024.4)</li>
+            <li>第二十六届中国机器人及人工智能大赛机器人应用赛（智能巡检) 二等奖 (2024.8)</li>
+        </ul>
+    </section>
+
+    <!-- 联系信息 -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">联系我</h2>
+        <p>欢迎通过以下方式与我联系：</p>
+        <ul>
+            <li><i class="fas fa-envelope"></i> Email: <a href="mailto:friklogff@163.com">friklogff@163.com</a></li>
+            <li><i class="fab fa-github"></i> GitHub: <a href="https://github.com/friklogff" target="_blank">https://github.com/friklogff</a></li>
+            <li><i class="fas fa-blog"></i> 博客: <a href="https://friklogff.blog.csdn.net" target="_blank">https://friklogff.blog.csdn.net</a></li>
+        </ul>
+    </section>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
